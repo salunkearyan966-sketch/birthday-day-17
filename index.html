@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 17 - Shree Original</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" src="song.mp3"></audio>
+
+<div id="introScreen" class="intro-screen">
+  <div class="n-logo">N</div>
+  <p class="intro-small">A Harsh Original</p>
+</div>
+
+<section id="mainTrailer" class="trailer hidden">
+
+  <div class="topbar">
+    <div class="brand">SHREEFLIX</div>
+    <button onclick="toggleMusic()" id="musicBtn">Play Song 🎵</button>
+  </div>
+
+  <div class="slide active" style="background-image: url('photo1.jpg');">
+    <div class="content">
+      <p class="label">Day 17 of 29</p>
+      <h1>Shree: The Birthday Edition</h1>
+      <p>In a world full of ordinary days, one person makes everything feel special.</p>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url('photo2.jpg');">
+    <div class="content">
+      <p class="label">Starring</p>
+      <h1>Shree ❤️</h1>
+      <p>The smile, the kindness, the magic, and the reason behind this countdown.</p>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url('photo3.jpg');">
+    <div class="content">
+      <p class="label">Chapter One</p>
+      <h1>The Smile That Stays</h1>
+      <p>Some smiles are not just seen. They are remembered forever.</p>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url('photo4.jpg');">
+    <div class="content">
+      <p class="label">Chapter Two</p>
+      <h1>The Heart That Feels Like Home</h1>
+      <p>Every day of this project is one small proof that you deserve effort and happiness.</p>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url('photo5.jpg');">
+    <div class="content">
+      <p class="label">Coming Soon</p>
+      <h1>28 June 🎂</h1>
+      <p>The final scene is still waiting. And trust me, Shree, it is made only for you.</p>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button onclick="prevSlide()">⬅ Prev</button>
+    <button onclick="nextSlide()">Next ➡</button>
+  </div>
+
+  <div id="finalMessage" class="final-message">
+    <h2>Final Trailer Note ❤️</h2>
+    <p>
+      Shree, this is not just a trailer.  
+      This is Day 17 of a journey made with effort, love, time, and one simple wish:
+      to make you feel the happiest before your birthday.
+    </p>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
